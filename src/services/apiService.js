@@ -3,7 +3,7 @@ const baseUrl = 'https://api.themoviedb.org/3/';
 const apiKey = 'da01c4e54a8d5b285bda18b1e0590cea';
 
 export const getRating = () => {
-  const path = `${baseUrl}trending/all/day?api_key=${apiKey}`;
+  const path = `${baseUrl}trending/movie/day?api_key=${apiKey}`;
   return axios.get(path).then(response => {
     return response.data;
   });
