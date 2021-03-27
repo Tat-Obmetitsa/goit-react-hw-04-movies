@@ -1,0 +1,54 @@
+.pageHeader {
+  width: 100%;
+  padding-top: 30px;
+  height: 100px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.97),
+    rgb(51, 0, 153)
+  );
+}
+
+.headerNavigation {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+.navi_btn { 
+ 
+    display: inline-block;
+    width: 140px;
+    height: 30px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 45px;
+    transition: all 350ms cubic-bezier(0.215, 0.61, 0.355, 1);}
+  .navi_btn:hover {
+      background: #ffff00;
+      color: #545454;
+      border-color: #330099;
+      box-shadow: 0 15px 20px rgba(226, 229, 46, 0.4);
+      transform: translateY(-7px);
+    }
+.NavLink {
+  font-size: 20px;
+  color: white;
+  text-decoration:none;
+}
+.navi_btn:hover .NavLink {
+   color: #330099;
+}
+.NavLink__active {
+  color: white;
+  color: rgb(238, 255, 0);
+  text-decoration:none;
+}

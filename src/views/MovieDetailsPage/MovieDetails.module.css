@@ -1,0 +1,96 @@
+.card__box {
+  display: flex;
+  flex-direction: space-between;
+  color: yellow;
+  
+}
+
+.card__section__content {
+  max-width: 40%;
+  padding: 20px;
+  padding-bottom: 40px;
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 1.33;
+  background-color: inherit;
+  transform: scale(1);
+    font-size: 16px;
+    height: 90%;
+}
+.card__img {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+    width: 370px;
+}
+button {
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;}
+.back_btn { 
+    
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    padding-top: 8px;
+    padding-bottom: 10px;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 45px;
+    transition: all 350ms cubic-bezier(0.215, 0.61, 0.355, 1);}
+  .back_btn:hover {
+      background: #ffff00;
+      color: #545454;
+      border-color: #330099;
+      box-shadow: 0 15px 20px rgba(226, 229, 46, 0.4);
+      transform: translateY(-7px);
+    }
+.list__title {
+  color: rgb(238, 255, 0);
+  font-size: 25px;
+    background-color: rgb(51, 0, 153)
+}
+.navi_btn { 
+ 
+    display: inline-block;
+    width: 110px;
+    height: 20px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 45px;
+    transition: all 350ms cubic-bezier(0.215, 0.61, 0.355, 1);}
+  .navi_btn:hover {
+      background: #ffff00;
+      color: #545454;
+      border-color: #330099;
+      box-shadow: 0 15px 20px rgba(226, 229, 46, 0.4);
+      transform: translateY(-7px);
+    }
+.NavLink {
+  font-size: 20px;
+  color: white;
+  text-decoration:none;
+}
+.navi_btn:hover .NavLink {
+   color: #330099;
+}
+.NavLink__active {
+  color: white;
+  color: rgb(238, 255, 0);
+  text-decoration:none;
+}
